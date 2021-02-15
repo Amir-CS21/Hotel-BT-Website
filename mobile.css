@@ -1,0 +1,127 @@
+#navbar .logo{ 
+    padding-left: 0%;
+    text-align: center;
+    float: none;
+    border-bottom: #444 dotted 2px;
+    /* list-style: none;
+    /* padding-top: 6px; */
+    /* margin-top: 10px;
+    padding-left: 145px; */ 
+}
+
+#navbar li{
+    text-align: center;
+    float: none;
+    list-style: none;
+    padding-left: 0px;
+    
+}
+#navbar li:nth-of-type(3){
+float: none;
+padding: 0px;
+text-align: center;
+list-style: none;
+
+}
+#navbar ul{
+    float: none;
+    display: block;
+    
+}
+#navbar ul li a{
+    display: block;
+    padding: 10px;
+    border-bottom: #444 dotted 2px;
+}
+.section1 h1{
+    
+    /* padding-left: 30px; */
+    padding:0;
+    margin: 0%;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+    /* text-align: left; */
+}
+
+.right-info img{
+    display: none;
+    /* float: none;
+    display: block;
+    width: 30%;
+    margin:auto;
+    padding: 0; */
+    /* padding-right: 40px;
+    padding-top:20px ;
+    padding-bottom: 20px;
+    float: left; */
+}
+
+.section1 {
+    display: block;
+    /* margin:0; */
+    /* padding-left:px; */
+    /* text-align: center; */
+    width: 100%;
+}
+/* .section1 p{
+    display: block;
+    /* margin:auto; */
+    /* float: left; */
+    /* text-align: justify; */
+     /* height: 50%;
+    width: 80%;
+    margin-left: 20px;
+    font-size: 18px;
+}  */
+#con{
+    text-align: center;
+    padding-top: 0;
+    padding-left: 60px;
+    margin: auto;
+    color: #333;
+    font-size: 16px;
+}
+#final-section{
+    width: 100%;
+}
+
+#guest1{ 
+    background: #f7c08a;
+    margin: auto;
+    height: 200px;
+    width: 650px;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+#guest1 .para #par1{
+    width: 500px;
+    /* margin-left: 5px; */
+    /* padding: 20px; */
+    display: block;
+    /* max-width: 100%; */
+    /* float: left; */
+    /* text-align: justify; */
+}
+
+
+#guest2{ 
+    background: #f7c08a;
+    margin: auto;
+    height: 200px;
+    width: 650px;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+#guest2 .para #par2{
+    width: 500px;
+    /* margin-left: 5px; */
+    /* padding: 20px; */
+    display: block;
+    /* max-width: 100%; */
+    /* float: left; */
+    /* text-align: justify; */
+}

@@ -1,0 +1,388 @@
+
+.active{
+
+  color: #f7c08a;
+  background-color: #444;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+}
+#navbar{
+    background-color: #333;
+    height: auto;
+    overflow: auto;
+    padding: 0px;
+}
+
+ a{
+    color: white;
+    text-decoration: none;
+}
+#navbar .logo{ 
+    text-align: bottom;
+    float: left;
+    list-style: none;
+    /* padding-top: 6px; */
+    margin-top: 10px;
+    padding-left: 145px;
+}
+@media only screen and (max-width: 320px){
+    #navbar .logo{
+        padding-left: 10px;
+    }
+}
+#navbar li:hover{
+    color: #f7c08a;
+}
+#navbar li{
+    float: left;
+    list-style: none;
+    padding-left: 0px;
+}
+#navbar li:nth-of-type(3){
+    padding-right: 146px;
+}
+#navbar ul{
+    float: right;
+    display: block;
+}
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+}
+#navbar li a:hover, #navbar li a.current{
+    color:#f7c08a;
+    background-color: #444;
+}
+.container{
+    height: 580px;
+    width: 1349px;
+    padding-top: 150px;
+    background: url(./img/showcase.jpg);
+    background-size: cover;
+    background-position: center;
+    object-position: center;
+    display: block;
+    text-align: center;
+    line-height: 1.7rem;
+    color: white;
+}
+#special-text{
+    color:#f7c08a;
+}
+#special-font-size{
+    font-size: 60px;
+    
+}
+h1{
+    padding-bottom: 20px;
+}
+.container p {
+   
+    font-size: 20px;
+    /* line-height: 1.7em; */
+    /* padding-bottom: 20px; */
+}
+#about{
+    background: rgb(32, 30, 30);
+    size: 25px;
+    padding: 8px;    
+}
+.btn{
+    font-size: 18px;
+    background: rgb(51, 48, 48);
+    padding: 14px 16px;
+}
+/* .container2{
+     size: 50%; 
+    height: 290px;
+    width: 674.5px; 
+}  */
+#front{
+    float: left;
+    width: 50%;
+    height: 400px;
+    /* object-fit: cover; */
+    /* object-position: top; */
+    background-repeat: no-repeat;
+}
+#hotel-history{
+    background:rgb(32, 30, 30);
+    float: right;
+    height: 400px;
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+#history{
+    color: #f7c08a;
+}
+#hotel-history h2{
+    padding: 40px;
+}
+#about-hotel{
+    display: block;
+    color : black;
+    margin: auto;
+    padding: 20px;
+    font-size: 18px;
+    width: 130px;
+    height: 70px;
+    text-align: center;
+    border: none;
+    background-color:white;
+}
+#about-hotel:hover{
+    background-color: #f7c08a;
+}
+
+#location{
+    display: block;
+    color: black;
+    height: 240px;
+    width: 33.3%;
+    background-color: rgb(246, 242, 242);
+    float: left;
+    text-align: center;
+    padding:40px;
+}
+
+#meal{
+    display: block;
+    color: black;
+    height: 240px;
+    width: 33.3%;
+    background-color:#f7c08a;
+    float: left;
+    text-align: center;
+    padding:40px;
+    line-height: 1.7rem;
+}
+#fitness{
+    padding:40px;
+    display: block;
+    color: black;
+    height: 240px;
+    width: 33.3%;
+    background-color: rgb(246, 242, 242);
+    float: left;
+    text-align: center;
+}
+#container3 h3{
+    display: block;
+    font-size: 1.2em;
+    padding-bottom: 30px;
+}
+.clr{
+    clear: both;
+}
+footer{
+    /* display: block; */
+    background-color:#333;
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 28px;
+    /* padding: 20px;
+    /* text-align: center; */
+    height: 80px;
+    /* 
+    margin: 10px auto;
+    color: white; */
+    /* overflow: auto; */
+}
+/* ============================================================================= */
+
+/*======================= about page styling================================== */
+
+
+
+body{
+    background-color: rgb(238, 234, 234);
+    padding: 0%;
+    margin: 0%;
+}
+
+.section1{
+    width: 50%;
+    /* margin: auto; */
+    float: left;
+    padding-bottom: 0;
+}
+
+.section1 p{
+    color: #333;
+    display: block;
+    /* margin:auto; */
+    float: left;
+    text-align: justify;
+    /* height: 20%; */
+    width: 80%;
+    font-size: 18px;
+
+    /* text-align: center; */
+    padding-left: 20px;
+    margin: 0;
+    color: #333;
+}
+.section1 h1{
+    margin-top: 40px;
+    padding-left: 168px;
+    font-size: 40px;
+    color: #333;
+}
+
+.right-info img{
+    display: block;
+    width: 30%;
+    /* margin:center; */
+    /* /* padding-right: 40px; */
+    padding-top:20px ;
+    /* padding-bottom: 20px; */ */
+    float: left;
+    /* margin-right: 60px; */
+    border-radius: 80%;
+}
+#final-section{
+    /* background: url(./img/test-bg.jpg); */
+    /* width: 1349.4px; */
+    height: 600px;
+    overflow: auto;
+    background : url('./img/test-bg.jpg') no-repeat center center/cover;
+}
+#final-section h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 80px;
+}
+#guest1{ 
+    background: #f7c08a;
+    margin: auto;
+    height: 130px;
+    width: 1000px;
+    border-radius: 20px;
+}
+
+#guest1 #person1 img{
+    display: block;
+    float: left;
+    object-fit: cover;
+    padding: 7px;
+    padding-top: 10px;
+    width: 120px;
+    border-radius: 50%; 
+}
+
+#guest1 .para #par1{
+    width: 800px;
+    margin-left: 5px;
+    padding: 20px;
+    display: block;
+    float: left;
+    text-align: justify;
+}
+
+#guest2{
+    background: #f7c08a;
+    margin: auto;
+    height: 130px;
+    width: 1000px;
+    border-radius: 20px;
+}
+#guest2 #person2 img{
+    /* padding-left: 20px; */
+    display: block;
+    float: left;
+    object-fit: cover;
+    width: 120px;
+    padding:7px;    
+    padding-top: 10px;
+    border-radius: 50px; 
+}
+
+#guest2 .para #par2{
+    width: 800px;
+    margin-left: 5px 4px;
+    padding: 20px;
+    display: block;
+    float: left;
+    text-align: justify;
+}
+#reviews{
+    margin: 70px auto;
+
+}
+
+/* ======================================================================================*/
+
+/* =======================Contact Page Styling========================================= */
+
+#contact{
+    background-color: white;
+}
+#con{
+    color: #f7c08a;
+    padding-left: 150px;
+}
+#form{
+    /* display: b */
+    margin-left:150px;
+    /* width: 200px; */
+    padding-left: ;: 100px;
+}
+#btn{
+    border: none;
+    background-color: #333;
+    color: white;
+    padding: 8px 15px;
+    font-size:20px;
+    margin-bottom: 20px;
+}
+/* #last-sect{
+    background-color: rgb(32, 30, 30);
+    color:white;
+    float:left;} */
+/* 
+.info{
+    float: left;
+    } */
+    
+.info{
+    display: block;
+    color: rgb(255, 255, 255);
+    height: 240px;
+    width: 33.3%;
+    background-color: #333;
+    float: left;
+    text-align: center;
+    padding:40px;
+}
+/* 
+#meal{
+    display: block;
+    color: black;
+    height: 240px;
+    width: 33.3%;
+    background-color:#f7c08a;
+    float: left;
+    text-align: center;
+    padding:40px;
+    line-height: 1.7rem;
+}
+#fitness{
+    padding:40px;
+    display: block;
+    color: black;
+    height: 240px;
+    width: 33.3%;
+    background-color: rgb(246, 242, 242);
+    float: left;
+    text-align: center;
+} */
